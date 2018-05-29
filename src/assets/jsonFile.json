@@ -1,0 +1,138 @@
+{
+  "customers":[
+    {
+      "name":"George",
+      "numberOfAccounts":3,
+      "customers":[]
+    },
+    {
+      "name":"Alice",
+      "numberOfAccounts":1,
+      "customers":[ {
+        "name": "Bob",
+        "numberOfAccounts":0,
+        "customers":[
+          {
+            "name":"Alice",
+            "numberOfAccounts":1,
+            "customers":[ {
+              "name": "Bob",
+              "numberOfAccounts":0,
+              "customers":[]
+            }
+            ]
+          },
+          {
+            "name":"Alice",
+            "numberOfAccounts":1,
+            "customers":[ {
+              "name": "Bob",
+              "numberOfAccounts":0,
+              "customers":[]
+            }
+            ]
+          },
+          {
+            "name":"Alice",
+            "numberOfAccounts":1,
+            "customers":[ {
+              "name": "Bob",
+              "numberOfAccounts":0,
+              "customers":[]
+            }
+            ]
+          }
+        ]
+      }
+      ]
+    },
+    {
+      "name":"Garry",
+      "numberOfAccounts":18,
+      "customers":[]
+    },
+    {
+      "name":"Alice",
+      "numberOfAccounts":1,
+      "customers":[ {
+        "name": "Bob",
+        "numberOfAccounts":0,
+        "customers":[
+          {
+            "name":"Alice",
+            "numberOfAccounts":1,
+            "customers":[ {
+              "name": "Bob",
+              "numberOfAccounts":0,
+              "customers":[]
+            }
+            ]
+          },
+          {
+            "name":"Alice",
+            "numberOfAccounts":1,
+            "customers":[ {
+              "name": "Bob",
+              "numberOfAccounts":0,
+              "customers":[]
+            }
+            ]
+          },
+          {
+            "name":"Alice",
+            "numberOfAccounts":1,
+            "customers":[ {
+              "name": "Bob",
+              "numberOfAccounts":0,
+              "customers":[
+                {
+                  "name":"Alice",
+                  "numberOfAccounts":1,
+                  "customers":[ {
+                    "name": "Bob",
+                    "numberOfAccounts":0,
+                    "customers":[
+                      {
+                        "name":"Alice",
+                        "numberOfAccounts":1,
+                        "customers":[ {
+                          "name": "Bob",
+                          "numberOfAccounts":0,
+                          "customers":[]
+                        }
+                        ]
+                      },
+                      {
+                        "name":"Alice",
+                        "numberOfAccounts":1,
+                        "customers":[ {
+                          "name": "Bob",
+                          "numberOfAccounts":0,
+                          "customers":[]
+                        }
+                        ]
+                      },
+                      {
+                        "name":"Alice",
+                        "numberOfAccounts":1,
+                        "customers":[ {
+                          "name": "Bob",
+                          "numberOfAccounts":0,
+                          "customers":[]
+                        }
+                        ]
+                      }
+                    ]
+                  }
+                  ]
+                }
+              ]
+            }
+            ]
+          }
+        ]
+      }
+      ]
+    }
+  ]
+}
